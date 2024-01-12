@@ -1,0 +1,164 @@
+<!DOCTYPE html>    
+<html>    
+<head>    
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<link rel="stylesheet" href="./css/style.css">  
+<link rel="stylesheet" href="/css/sell.css">
+ <!-- font awesome cdn link  -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+ <title> Sell</title>
+<style>        
+</style>    
+</head>    
+<body>
+    
+    
+    <!-- header section starts  -->
+
+<header class="header">
+
+    
+
+    <div class="header-2">
+        <nav class="navbar">
+       
+          <a href="index.html"><button class="header-2btn">Home</button></a>
+          <a href="#featured"><button class="header-2btn">featured</button></a>
+           <a href="#category"><button class="header-2btn">category</button></a>
+         <a href="/feedback.html"><button class="header-2btn">feedback</button></a>
+           <a href="https://forms.gle/bXYuQSDLMeYsJNgF9"><button class="header-2btn">google</button></a>
+         <a href="services.html"><button class="header-2btn active">service</button></a>
+        
+        </nav>
+    </div>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- bottom navbar  -->
+
+<nav class="bottom-navbar">
+    <a href="#home" class="fas fa-home"></a>
+    <a href="#featured" class="fas fa-list"></a>
+    <a href="#arrivals" class="fas fa-tags"></a>
+    <a href="#reviews" class="fas fa-comments"></a>
+    <a href="#feedback" class="fas fa-feedback"></a>
+</nav>
+
+
+<h2><centre>BOOK SELLING FORM</centre></h2>    
+<div class="container">    
+  <form>    
+    <div class="row">    
+      <div class="col-25">    
+        <label for="name">First name</label>    
+      </div>    
+      <div class="col-75">    
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">    
+      </div>    
+    </div>    
+    <div class="row">    
+      <div class="col-25">    
+        <label for="lname">Last Name</label>    
+      </div>    
+      <div class="col-75">    
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">    
+      </div>    
+    </div>    
+    <div class="row">    
+        <div class="col-25">    
+          <label for="email">Mail Id</label>    
+        </div>    
+        <div class="col-75">    
+          <input type="email" id="email" name="mailid" placeholder="Your mail id..">    
+        </div>    
+      </div>    
+    <div class="row">    
+      <div class="col-25">    
+        <label for="country">Country</label>    
+      </div>    
+      <div class="col-75">    
+        <select id="country" name="country">    
+            <option value="none">Select Country</option>       
+              
+          <option value="india">India</option>      
+        </select>    
+        
+      </div>    
+    </div>
+    
+    <div class="row">    
+        <div class="col-25">    
+          <label for="book">Which book you want to sell </label>    
+        </div> 
+   
+    <div class="col-75">
+        <select id="books" name="books">
+            <option value="none"> Select Books</option>
+            <option value="Engineering">Engineering</option>
+            <option value="Comices">Comices</option>
+            <option value="Medical">Medical</option>
+            <option value="Motivational ">Motivational</option>
+        </select>
+    </div>
+    <div class="row">    
+        <div class="col-25">    
+          <label for="name of Book"> Name Of Book</label>    
+        </div>    
+        <div class="col-75">    
+          <input type="email" id="email" name="mailid" placeholder="Name Of Book ">    
+        </div>    
+      </div>
+      <div class="row">    
+        <div class="col-25">    
+          <label for="Author Name"> Name Of Author</label>    
+        </div>    
+        <div class="col-75">    
+          <input type="text" id="name" name="mailid" placeholder="Author Name ">    
+        </div>    
+      </div>
+    <div class="row">    
+        <div class="col-25">    
+          <label for="Prize">Prize</label>    
+        </div>    
+        <div class="col-75">    
+          <input type="email" id="email" name="mailid" placeholder="Prize">    
+        </div>    
+      </div>
+      <div class="col-25"></div>
+      <div class="col-75">    
+          <h1>Upload Book Photo</h1>
+        <form action="upload.php" method="post" enctype="multipart/form-data">
+            <label for="photo">Select a photo:</label>
+            <input type="file" name="photo" id="photo">
+            <br>
+            <input type="submit" value="Upload">
+        </form>  
+      </div>    
+    </div>    
+    <div class="row">    
+      <input type="submit" value="Submit">    
+    </div>    
+  </form>    
+</div>    
+ 
+<!-- footer section starts  -->
+
+<section class="footer">
+
+
+<div class="credit"> created by <span>Akshay Tiwari & Team </span>copyright &copy;2023 all rights reserved! </div>
+
+  
+
+  
+
+</section>
+
+<!-- footer section ends -->
+
+
+<script src="./js/script.js"></script>
+</body>    
+</html>    
